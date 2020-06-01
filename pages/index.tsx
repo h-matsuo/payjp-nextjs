@@ -6,6 +6,7 @@ import DatePicker from '@/components/DatePicker'
 import { SmileFilled } from '@ant-design/icons'
 
 import Link from 'next/link'
+import PayjpCardForm from '@/components/PayjpCardForm'
 
 const FormItem = Form.Item
 const Option = Select.Option
@@ -17,6 +18,7 @@ const content = {
 export default function Home() {
   return (
     <div style={content}>
+      <PayjpCardForm />
       <div className="text-center mb-5">
         <Link href="#">
           <a className="logo mr-0">
